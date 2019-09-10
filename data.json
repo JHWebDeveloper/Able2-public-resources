@@ -1,6 +1,13 @@
 [
+  "Florida Department of Children and Families",
+  "Florida Department of Corrections",
   "Florida Department of Law Enforcement",
+  "Florida Department of Juvenile Justice",
+  "Florida Department of Transportation",
+  "Florida Fish and Wildlife Conservation Commission",
   "Florida Highway Patrol",
+  "Visit Florida",
+  "Central Florida Expressway Authority",
 
   "Brevard County Sheriff's Office",
   "Flagler County Sheriff's Office",
@@ -115,6 +122,8 @@
   "Universal Studios",
   "SeaWorld",
   "Legoland",
+  "Fun Spot America",
+  "Gatorland",
   
   "Daytona Beach International Airport",
   "Kissimmee Gateway Airport",
@@ -127,7 +136,10 @@
   "Port Canaveral",
   
   "Lynx",
+  "Votran",
+  "Space Coast Area Transit",
   "SunRail",
+  "Brightline",
   "Uber",
   "Lyft",
   
@@ -259,5 +271,10 @@
   "The Villages Public Safety Department",
   "Winter Garden Fire Rescue Department",
   "Winter Haven Fire Department",
-  "Winter Park Fire-Rescue Department"
+  "Winter Park Fire-Rescue Department",
+  
+  "Orlando Utilities Commission",
+  "Duke Energy",
+  "Florida Power & Light",
+  "Kissimmee Utility Authority"
 ]
