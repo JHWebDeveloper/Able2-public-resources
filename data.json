@@ -386,7 +386,20 @@
   "Orlando-Sanford International Airport",
   "Titusville-Cocoa Airport Authority",
   
+  "United Airlines",
+  "American Airlines",
+  "Southwest Airlines",
+  "Delta Air Lines",
+  "Spirit Airlines",
+  "JetBlue Airways",
+  "Allegiant Air",
+  "Frontier Airlines",
+  
   "Canaveral Port Authority",
+  "Carnival Cruise Line",
+  "Royal Caribbean International",
+  "Disney Cruise Line",
+  "Norwegian Cruise Line",
 
   "NASA",
   "SpaceX",
@@ -395,6 +408,10 @@
   "Blue Origin",
   "United Launch Alliance",
   "Virgin Galactic",
+  
+  "United States Postal Service",
+  "United Parcel Service",
+  "FedEx",
   
   "Facebook",
   "Google",
@@ -456,6 +473,11 @@
   "Harbour House of Central Florida",
   "Coalition for the Homeless of Central Florida",
   "Limbitless Solutions",
+  
+  "Starbucks",
+  "Publix Super Markets",
+  "Walmart",
+  "Target",
   
   "SIMULATION",
   "Family Photo"
