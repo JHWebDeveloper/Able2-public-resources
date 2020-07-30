@@ -73,6 +73,7 @@ This repo was made for hosting JSON and public releases for my app.
 ### Added
 - Source on Top feature, allowing source overlay to appear on top of video instead of bottom
 - Retry button after update fails
+- Support for .m2ts files
 
 ### Changed
 - Major security improvements
