@@ -8,7 +8,7 @@ This repo was made for hosting JSON and public releases for my app.
 - Bug causing TV and Laptop overlay to only render the first 5 secs of video
 - Focus rings for accessibilty, accidentally left out of 2.0.0
 
-## [2.0.0] - 7/29/2020
+## [2.0.0] - 7.29.2020
 
 ### Added
 - Multiple Downloads
@@ -38,22 +38,22 @@ This repo was made for hosting JSON and public releases for my app.
 - Windows 32bit support resulting in a smaller application size and faster updates
 - Help page. A little too much for this lone developer to write right now. Open to any contributions.
 
-## [1.2.6] - 7/17/2020
+## v1.2.6 - 7.17.2020
 
 ### Fixed
 - Bug causing uninstallation, reinstallation and updates to fail
 
-## [1.2.5] - 7/9/2020
+## v1.2.5 - 7.9.2020
 
 ### Updated
 - Video service compatibility
 
-## [1.2.4] - 4/29/2020
+## v1.2.4 - 4.29.2020
 
 ### Changed
 - In accordance with our graphics department change, source overlay has been moved slightly higher to avoid it appearing under the ticker.
 
-## [1.2.3] - 4/24/2020
+## v1.2.3 - 4.24.2020
 
 ### Fixed
 - Inaccurate download numbers
@@ -61,17 +61,17 @@ This repo was made for hosting JSON and public releases for my app.
 ### Changed
 - Increased character limit on filename field
 
-## [1.2.2] - 2/4/2020
+## v1.2.2 - 2.4.2020
 
 ### Fixed
 - Bug causing to temp files to not delete after a batch process
 
-## [1.2.1] - 2/4/2020
+## v1.2.1 - 2/4/2020
 
 ### Updated
 - Video service compatibility
 
-## [1.2.0] - 1/16/2020
+## v1.2.0 - 1.16.2020
 
 ### Added
 - Source on Top feature, allowing source overlay to appear on top of video instead of bottom
@@ -80,7 +80,7 @@ This repo was made for hosting JSON and public releases for my app.
 ### Changed
 - Major security improvements
 
-## [1.1.3] - 12/30/2019
+## v1.1.3 - 12.30.2019
 
 ### Changed
 - Added .m2ts to accepted extensions
@@ -88,7 +88,7 @@ This repo was made for hosting JSON and public releases for my app.
 ### Updated
 - Video service compatibility
 
-## [1.1.2] - 11/01/2019
+## v1.1.2 - 11.01.2019
 
 ### Fixed
 - Occasionally inaccurate frame rate display
@@ -96,12 +96,12 @@ This repo was made for hosting JSON and public releases for my app.
 ### Changed
 - Added .mts to accepted extensions
 
-## [1.1.1] - 9/30/2020
+## v1.1.1 - 9.30.2020
 
 ### Changed
 - Safe character filtering for filename field. Now filters out any character that causes errors in Aspera.
 
-## [1.1.0] - 9/24/2020
+## v1.1.0 - 9.24.2020
 
 ### Added
 - Rotate and Flip feature
