@@ -34,7 +34,7 @@ This repo was made for hosting JSON and public releases for my app.
 ## [1.2.6]
 
 ## Fixed
-- Bug causing uninstall, reinstall and updates to fail
+- Bug causing uninstallation, reinstallation and updates to fail
 
 ## [1.2.5]
 
