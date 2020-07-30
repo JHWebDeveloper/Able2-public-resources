@@ -98,12 +98,12 @@ This repo was made for hosting JSON and public releases for my app.
 ### Changed
 - Added .mts to accepted extensions
 
-## [1.1.1] - 9.30.2020
+## [1.1.1] - 9.30.2019
 
 ### Changed
 - Safe character filtering for filename field. Now filters out any character that causes errors in Aspera.
 
-## [1.1.0] - 9.24.2020
+## [1.1.0] - 9.24.2019
 
 ### Added
 - Rotate and Flip feature
