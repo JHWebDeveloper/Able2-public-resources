@@ -29,11 +29,14 @@ This repo was made for hosting JSON and public releases for my app.
 - Custom scratch disks locations
 
 ### Changed
-- Video now downloads before choosing render settings.
-- Dropped support for Windows 32bit resulting in a smaller applications size
+- Video now downloads before choosing render settings
 
 ### Updated
 - Video service compatibility
+
+### Removed
+- Windows 32bit resulting in a smaller applications size and faster updates
+- Help page. A little too much for this lone developer to write right now. Open to any contributions.
 
 ## [1.2.6] - 7/17/2020
 
