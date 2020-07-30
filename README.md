@@ -35,7 +35,7 @@ This repo was made for hosting JSON and public releases for my app.
 - Video service compatibility
 
 ### Removed
-- Windows 32bit resulting in a smaller applications size and faster updates
+- Windows 32bit support resulting in a smaller application size and faster updates
 - Help page. A little too much for this lone developer to write right now. Open to any contributions.
 
 ## [1.2.6] - 7/17/2020
