@@ -27,9 +27,11 @@ This repo was made for hosting JSON and public releases for my app.
 - Batch name feature with tokens for batch number ($n), date ($d, $D) and time ($t, $T)
 - Concurrent Renders, and ability to adjust how many
 - Custom scratch disks locations
+- Splash screen on app start
 
 ### Changed
 - Video now downloads before choosing render settings
+- Update now opens as separate window with new look for download meter
 
 ### Updated
 - Video service compatibility
