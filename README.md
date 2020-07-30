@@ -73,7 +73,37 @@ This repo was made for hosting JSON and public releases for my app.
 ### Added
 - Source on Top feature, allowing source overlay to appear on top of video instead of bottom
 - Retry button after update fails
-- Support for .m2ts files
 
 ### Changed
 - Major security improvements
+
+## [1.1.3] - 12/30/2019
+
+### Changed
+- Added .m2ts to accepted extensions
+
+### Updated
+- Video service compatibility
+
+## [1.1.2] - 11/01/2019
+
+### Fixed
+- Occasionally inaccurate frame rate display
+
+### Changed
+- Added .mts to accepted extensions
+
+## [1.1.1] - 9/30/2020
+
+### Changed
+- Safe character filtering for filename field. Now filters out any character that causes errors in Aspera.
+
+## [1.1.0] - 9/24/2020
+
+### Added
+- Rotate and Flip feature
+- No audio warning on screen record on Mac Version
+- Version number appears on help page
+
+### Fixed
+- Improved error catching on downloads. Was throwing errors for minor error that did not effect obtaining video.
