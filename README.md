@@ -60,5 +60,19 @@ This repo was made for hosting JSON and public releases for my app.
 
 ## [1.2.2] - 2/4/2020
 
+### Fixed
+- Bug causing to temp files to not delete after a batch process
+
+## [1.2.1] - 2/4/2020
+
 ### Updated
 - Video service compatibility
+
+## [1.2.0] - 1/16/2020
+
+### Added
+- Source on Top feature, allowing source overlay to appear on top of video instead of bottom
+- Retry button after update fails
+
+### Changed
+- Major security improvements
