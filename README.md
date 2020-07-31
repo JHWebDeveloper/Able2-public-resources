@@ -4,6 +4,9 @@ This repo was made for hosting JSON and public releases for my app.
 
 ## [Unreleased][2.0.1] - TBD
 
+### Added
+- Output frame rate feature in preferences, can set it to 'auto' or '59.95fps'
+
 ### Fixed
 - Bug causing TV and Laptop overlay to only render the first 5 secs of video
 - Focus rings for accessibilty, accidentally left out of 2.0.0
