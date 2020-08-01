@@ -2,7 +2,7 @@
 
 This repo was made for hosting JSON and public releases for my app.
 
-## [Unreleased][2.0.1] - TBD
+## [2.0.1] - 7.31.2020
 
 ### Added
 - Output frame rate feature in preferences, can set it to 'auto' or '59.95fps'
