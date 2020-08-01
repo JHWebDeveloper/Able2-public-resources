@@ -115,3 +115,5 @@ This repo was made for hosting JSON and public releases for my app.
 
 ### Fixed
 - Improved error catching on downloads. Was throwing errors for minor error that did not effect obtaining video.
+
+## [1.0.0] - 9.16.2019
