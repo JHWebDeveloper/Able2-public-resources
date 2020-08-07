@@ -18,6 +18,9 @@ This repo was made for hosting JSON and public releases for my app.
 ### Updated
 - Ffmpeg and Ffprobe binaries.
 
+### Fixed
+- Bug causing the combined settings of ARC: Fit to Frame + Background: Transparent + Overlay: TV|Laptop to not output an alpha channel
+
 ## [2.0.1] - 7.31.2020
 
 ### Added
