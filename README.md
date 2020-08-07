@@ -2,6 +2,22 @@
 
 This repo was made for hosting JSON and public releases for my app.
 
+## [Unreleased][2.1.0] - TBD
+
+### Added
+- Audio file conversion to either .wav or .mp4 with color bars
+- Ability to extract audio from videos
+- Support for downloading from SoundCloud and other audio services covered by youtube-dl
+- .psd support. Treats them just like an image.
+- Now encodes all audio as AAC 192k 48hz
+
+### Changed
+- Codec support maximized. No longer prechecking by parsing file extensions. Using Fprobe for prechecking so all available codecs in Ffmpeg are now supported.
+- Animated PNGs and Motion JPEGS are now treated like GIFS
+
+### Updated
+- Ffmpeg and Ffprobe binaries.
+
 ## [2.0.1] - 7.31.2020
 
 ### Added
