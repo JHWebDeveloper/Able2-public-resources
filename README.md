@@ -9,7 +9,7 @@ This repo was made for hosting JSON and public releases for my app.
 - Ability to extract audio from videos
 - Support for downloading from SoundCloud and other audio services covered by youtube-dl
 - .psd support. Treats them just like an image.
-- Now encodes all audio as AAC 192k 48hz
+- Now encodes all video audio as AAC 192k 48kHz
 
 ### Changed
 - Codec support maximized. No longer prechecking by parsing file extensions. Using Fprobe for prechecking so all available codecs in Ffmpeg are now supported.
