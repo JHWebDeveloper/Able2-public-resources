@@ -6,7 +6,7 @@ This repo was made for hosting JSON and public releases for my app.
 
 ### Added
 - Audio file conversion to either .wav or .mp4 with color bars
-- Ability to extract audio from videos
+- Ability to extract or remove audio from videos
 - Support for downloading from SoundCloud and other audio services covered by youtube-dl
 - .psd support. Treats them just like an image.
 - Now encodes all video audio as AAC 192k 48kHz
