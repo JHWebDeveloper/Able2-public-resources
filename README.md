@@ -1,6 +1,8 @@
 # Able2
 
-This repo was made for hosting JSON and public releases for my app.
+Able2 is an all-in-one News Editor's toolkit customized for the Editors and Photographers of WFTV in Orlando, FL. Able2 is able to download media from the various online services, capture screen recordings and convert and process video, images and -coming soon- audio for air.
+
+This repo is intended to host JSON and Able2 public releases.
 
 ## [Unreleased][2.1.0] - TBD
 
