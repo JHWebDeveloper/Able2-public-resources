@@ -10,6 +10,7 @@ This repo was made for hosting JSON and public releases for my app.
 - Support for downloading from SoundCloud and other audio services covered by youtube-dl
 - .psd support. Treats them just like an image.
 - Now encodes all video audio streams as AAC 192k 48kHz
+- Batchname options: Overwrite Filename, Add to front, Add to back
 
 ### Changed
 - Codec support maximized. No longer prechecking by parsing file extensions. Using Fprobe for prechecking so all available codecs in Ffmpeg are now supported.
@@ -20,7 +21,7 @@ This repo was made for hosting JSON and public releases for my app.
 
 ### Fixed
 - Bug causing the combined settings of ARC: Fit to Frame + Background: Transparent + Overlay: TV|Laptop to not output an alpha channel
-- Reduced the huge delay that occurs after a screen recording. Was caused by the need to convert the video. Finally found a work around.
+- Drastically reduced the delay that occurs after a screen recording. Was caused by the need to convert the video. Finally found a work around.
 
 ## [2.0.1] - 7.31.2020
 
