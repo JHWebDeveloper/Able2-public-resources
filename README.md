@@ -92,9 +92,9 @@ This repo is intended to host JSON and Able2 public releases.
 ## [1.2.2] - 2.4.2020
 
 ### Fixed
-- Bug causing to temp files to not delete after a batch process
+- Bug causing temp files to not delete after a batch process
 
-## [1.2.1] - 2/4/2020
+## [1.2.1] - 2.4.2020
 
 ### Updated
 - Video service compatibility
