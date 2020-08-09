@@ -7,7 +7,7 @@ This repo is intended to host JSON and Able2 public releases.
 ## [Unreleased][2.1.0] - TBD
 
 ### Added
-- Audio file conversion to either .wav or .mp4 with color bars
+- Audio file conversion to either .wav, .mp3 or .mp4 with color bars
 - Ability to extract or remove audio from videos
 - Support for downloading from SoundCloud and other audio services covered by youtube-dl
 - .psd support. Treats them just like an image.
