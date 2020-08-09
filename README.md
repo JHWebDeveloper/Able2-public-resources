@@ -17,6 +17,7 @@ This repo is intended to host JSON and Able2 public releases.
 ### Changed
 - Codec support maximized. No longer prechecking by parsing file extensions. Using Fprobe for prechecking so all available codecs in Ffmpeg are now supported.
 - Animated PNGs and Motion JPEGS are now treated like GIFS
+- Images that lack a visible moving background are now exported as .png's rather than video
 
 ### Updated
 - Ffmpeg and Ffprobe binaries.
