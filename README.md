@@ -13,6 +13,7 @@ This repo is intended to host JSON and Able2 public releases.
 - .psd support. Treats them just like an image.
 - Now encodes all video audio streams as AAC 192k 48kHz
 - Batchname options: Overwrite Filename, Add to front, Add to back
+- Ability to sort items in a batch: Move Up and Move Down options added to dropdown menus.
 
 ### Changed
 - Codec support maximized. No longer prechecking by parsing file extensions. Using Fprobe for prechecking so all available codecs in Ffmpeg are now supported.
