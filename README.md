@@ -10,6 +10,7 @@ This repo is intended to host Able2 public releases and JSON.
 - Audio file conversion to either .wav, .mp3 or .mp4 with color bars
 - Ability to extract or remove audio from videos
 - Support for downloading from SoundCloud and other audio services covered by youtube-dl
+- Preview displays actual waveform data for audio files
 - .psd support. Treats them just like an image.
 - Now encodes all video audio streams as AAC 192k 48kHz
 - Batchname options: Overwrite Filename, Add to front, Add to back
