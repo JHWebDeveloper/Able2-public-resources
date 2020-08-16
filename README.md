@@ -7,19 +7,21 @@ This repo is intended to host Able2 public releases and JSON.
 ## [Unreleased][2.1.0] - TBD
 
 ### Added
-- Audio file conversion to either .wav, .mp3 or .mp4 with color bars
-- Ability to extract or remove audio from videos
-- Support for downloading from SoundCloud and other audio services covered by youtube-dl
-- Preview displays actual waveform data for audio files
+- Audio file conversion to either .wav, .mp3 or .mp4 with color bars.
+- Ability to extract or remove audio from videos.
+- Support for downloading from SoundCloud and other audio services covered by youtube-dl.
+- Preview displays actual waveform data for audio files.
 - .psd support. Treats them just like an image.
-- Now encodes all video audio streams as AAC 192k 48kHz
-- Batchname options: Overwrite Filename, Add to front, Add to back
+- Now encodes all video audio streams as AAC 192k 48kHz.
+- Batchname options: Overwrite Filename, Add to front, Add to back.
 - Ability to sort items in a batch: Move Up and Move Down options added to dropdown menus.
 
 ### Changed
 - Codec support maximized. No longer prechecking by parsing file extensions. Using Fprobe for prechecking so all available codecs in Ffmpeg are now supported.
-- Animated PNGs and Motion JPEGS are now treated like GIFS
-- Images that lack a visible moving background are now exported as .png's rather than video
+- Animated PNGs and Motion JPEGS are now treated like GIFS.
+- Images that lack a visible moving background are now exported as .png's rather than video.
+- Images can now have box overlays.
+- Fill Frame mode can now have a background if an alpha channel is detected.
 
 ### Updated
 - Ffmpeg and Ffprobe binaries.
@@ -28,15 +30,16 @@ This repo is intended to host Able2 public releases and JSON.
 - Bug causing the combined settings of ARC: Fit to Frame + Background: Transparent + Overlay: TV|Laptop to not output an alpha channel
 - Got rid of the huge delay that occurs after a screen recording. Was caused by the need to convert the video. Finally found a work around.
 - Mac version now supports audio during screen records... sort of. An app called Soundflower has to be an installed on the user's machine. It's not ideal, but the best option to get around Mac's unfortunate limitations.
+- Preview can now display alpha channels.
 
 ## [2.0.1] - 7.31.2020
 
 ### Added
-- Output frame rate feature in preferences, can set it to 'auto' or '59.95fps'
+- Output frame rate feature in preferences, can set it to 'auto' or '59.95fps'.
 
 ### Fixed
-- Bug causing TV and Laptop overlay to only render the first 5 secs of video
-- Focus rings for accessibilty, accidentally left out of 2.0.0
+- Bug causing TV and Laptop overlay to only render the first 5 secs of video.
+- Focus rings for accessibilty, accidentally left out of 2.0.0.
 
 ## [2.0.0] - 7.29.2020
 
