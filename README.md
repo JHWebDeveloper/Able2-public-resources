@@ -35,7 +35,7 @@ This repo is intended to host Able2 public releases and JSON.
 ## [2.0.1] - 7.31.2020
 
 ### Added
-- Output frame rate feature in preferences, can set it to 'auto' or '59.95fps'.
+- Output frame rate feature in preferences, can set it to 'auto' or '59.94fps'.
 
 ### Fixed
 - Bug causing TV and Laptop overlay to only render the first 5 secs of video.
