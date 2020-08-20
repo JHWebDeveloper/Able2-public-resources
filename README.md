@@ -22,7 +22,6 @@ This repo is intended to host Able2 public releases and JSON.
 - Images that lack a visible moving background are now exported as .png's rather than video.
 - Images can now have box overlays.
 - Fill Frame mode can now have a background if an alpha channel is detected.
-- No longer providing a mac .zip version. It won't work on OS Catalina. Waiting for electron-builder to fix the issue.
 
 ### Updated
 - Ffmpeg and Ffprobe binaries.
@@ -34,6 +33,9 @@ This repo is intended to host Able2 public releases and JSON.
 - Filenames are now retained after hitting Back when a Batch Name was entered.
 - Bug causing the combined settings of ARC: Fit to Frame + Background: Transparent + Overlay: TV|Laptop to not output an alpha channel.
 - Bug causing files not to save when directory selector popup appears in lieu of active save locations.
+
+### Removed
+- No longer providing a mac .zip version. It won't work on OS Catalina. Waiting on electron-builder to fix the issue.
 
 ## [2.0.1] - 7.31.2020
 
