@@ -27,10 +27,12 @@ This repo is intended to host Able2 public releases and JSON.
 - Ffmpeg and Ffprobe binaries.
 
 ### Fixed
-- Bug causing the combined settings of ARC: Fit to Frame + Background: Transparent + Overlay: TV|Laptop to not output an alpha channel
 - Got rid of the huge delay that occurs after a screen recording. Was caused by the need to convert the video. Finally found a work around.
 - Mac version now supports audio during screen records... sort of. An app called Soundflower has to be an installed on the user's machine. It's not ideal, but the best option to get around Mac's unfortunate limitations.
 - Preview can now display alpha channels.
+- Filenames are now retained after hitting Back when a Batch Name was entered.
+- Bug causing the combined settings of ARC: Fit to Frame + Background: Transparent + Overlay: TV|Laptop to not output an alpha channel.
+- Bug causing files not to save when directory selector popup appears in lieu of active save locations.
 
 ## [2.0.1] - 7.31.2020
 
