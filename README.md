@@ -4,7 +4,7 @@ Able2 is an all-in-one News Editor's video acquisition tool customized for the E
 
 This repo is intended to host Able2 public releases and JSON.
 
-## [Unreleased][2.1.0] - TBD
+## [2.1.0] - 8.20.2020
 
 ### Added
 - Audio file conversion to either .wav, .mp3 or .mp4 with color bars.
