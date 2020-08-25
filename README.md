@@ -4,6 +4,12 @@ Able2 is an all-in-one News Editor's video acquisition tool customized for the E
 
 This repo is intended to host Able2 public releases and JSON.
 
+## [Unreleased][2.1.1] - TBD
+
+### Added
+- Stop button to allow partial downloading of youtube livestreams.
+- Can now disable filtering out of characters that cause errors in Aspera (allows you to keep foreign characters in a filename if aspera is not needed).
+
 ## [2.1.0] - 8.20.2020
 
 ### Added
