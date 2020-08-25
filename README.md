@@ -2,7 +2,7 @@
 
 Able2 is an all-in-one News Editor's video acquisition tool customized for the Editors and Photographers of WFTV in Orlando, FL. Able2 is able to download media from various online services, record video and audio from a user's desktop and convert and format video, image and audio files for air.
 
-This repo is intended to host Able2 public releases and JSON.
+This repo does not contain source code. It is intended to host Able2 public releases and JSON.
 
 ## [Unreleased][2.1.1] - TBD
 
