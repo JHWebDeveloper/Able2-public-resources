@@ -9,6 +9,7 @@ This repo does not contain source code. It is intended to host Able2 public rele
 ### Added
 - Stop button to allow partial downloading of youtube livestreams.
 - Can now disable filtering out of characters that cause errors in Aspera (allows you to keep foreign characters in a filename if aspera is not needed).
+- Restore Default button in Preferences window.
 
 ### Fixed
 - Error where some downloaded videos were being loaded as audio
