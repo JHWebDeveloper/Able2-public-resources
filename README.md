@@ -11,6 +11,9 @@ This repo does not contain source code. It is intended to host Able2 public rele
 - Can now disable filtering out of characters that cause errors in Aspera (allows you to keep foreign characters in a filename if aspera is not needed).
 - Restore Default button in Preferences window.
 
+### Changed
+- Illegal filename characters are now replaced by an underscore instead of their respective URI code.
+
 ### Fixed
 - Error where some downloaded videos were being loaded as audio
 - Error allowing filename length to be up to 280 characters, beyond system max length. Now 250.
