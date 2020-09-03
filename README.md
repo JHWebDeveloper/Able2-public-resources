@@ -16,8 +16,8 @@ This repo does not contain source code. It is intended to host Able2 public rele
 - Duplicate numbering now concatenates to filename with a space instead of period.
 
 ### Fixed
-- Error where some downloaded videos were being loaded as audio
-- Error allowing filename length to be up to 280 characters, beyond system max length. Now 250.
+- Bug causing some downloaded videos were being loaded as audio
+- Bug causing save errors by allowing filename length to be up to 280 characters, beyond system max length. Now 250.
 
 ## [2.1.0] - 8.20.2020
 
