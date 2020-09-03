@@ -13,6 +13,7 @@ This repo does not contain source code. It is intended to host Able2 public rele
 
 ### Changed
 - Illegal filename characters are now replaced by an underscore instead of their respective URI code.
+- Duplicate numbering now concatenates to filename with a space instead of period.
 
 ### Fixed
 - Error where some downloaded videos were being loaded as audio
