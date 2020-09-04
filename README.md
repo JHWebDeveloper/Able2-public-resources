@@ -4,6 +4,17 @@ Able2 is an all-in-one News Editor's video acquisition tool customized for the E
 
 This repo does not contain source code. It is intended to host Able2 public releases and JSON.
 
+## [Unreleased][2.1.2] - TBD
+
+### Added
+- Added $s token for file and batch names. Can be used for inserting batch size ('Video $n of $s' ---> 'Video 1 of 10', 'Video 2 of 10', 'Video 3 of 10'...)
+
+### Changed
+- Duplicate filenames now follow the "1 of 1" pattern instead of just a single digit.
+
+### Fixed
+- Duplicates filename numbering no longer adds characters to filename beyond max character length. If filename is nearing 255 characters, enough characters will be deleted to make room for numbering concatenation.
+
 ## [2.1.1] - 9.3.2020
 
 ### Added
