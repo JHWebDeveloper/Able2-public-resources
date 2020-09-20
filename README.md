@@ -7,16 +7,21 @@ This repo does not contain source code. It is intended to host Able2 public rele
 ## [Unreleased][2.1.2] - TBD
 
 ### Added
-- Added $s token for file and batch names. Can be used for inserting batch size ('Video $n of $s' ---> 'Video 1 of 10', 'Video 2 of 10', 'Video 3 of 10'...)
+- Media items can now be rearranged by dragging and dropping in both the Ready Queue and Batch Selector as can Save Locations in Preference.
+- Help page is back.
+- Added $b token for file and batch names. Can be used for inserting batch size ('Video $n of $b' ---> 'Video 1 of 10', 'Video 2 of 10', 'Video 3 of 10'...)
+- Added $r token for file and batch names. Will number media items in descending order.
 
 ### Changed
-- Duplicate filenames now follow the "1 of 1" pattern instead of just a single digit.
+- Duplicate filenames now follow the "&lt;#&gt; of &lt;total&gt;" pattern instead of just a single digit.
+- No more overwrites on save. Number will append to filename if file with same name exists.
 
 ### Updated
 - Video service compatibility
+- Electron 10.1.2. It seems this fixed the not-opening bug.
 
 ### Fixed
-- Duplicates filename numbering no longer adds characters to filename beyond max character length. If filename is nearing 255 characters, enough characters will be deleted to make room for numbering concatenation.
+- Duplicate filename numbering no longer adds characters to filename beyond max character length. If filename is nearing 255 characters, enough characters will be deleted to make room for concatenating number string.
 - Bug causing filename in a single item batch to remain disabled if a left over batch name is present with "replace" selected.
 
 ## [2.1.1] - 9.3.2020
