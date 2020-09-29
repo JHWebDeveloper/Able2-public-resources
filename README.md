@@ -4,6 +4,14 @@ Able2 is an all-in-one News Editor's video acquisition tool customized for the E
 
 This repo does not contain source code. It is intended to host Able2 public releases and JSON.
 
+## [Unreleased][2.1.3] - TBD
+
+### Added
+- Holding shift allows for fine tuning of Position, Scale and Crop sliders and number fields.
+
+### Fixed
+- Bug preventing negative sign and leading decimal point from being typed into the number fields next to the sliders.
+
 ## [2.1.2] - 9.21.2020
 
 ### Added
