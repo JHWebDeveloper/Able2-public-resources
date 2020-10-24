@@ -1,6 +1,6 @@
 # Able2
 
-Able2 is an all-in-one News Editor's video acquisition tool. Able2 is able to download press kit video from various online services, record video and audio from a user's desktop and convert and format video, image and audio files for air.
+Able2 is an all-in-one News Editor's video acquisition tool. Able2 is able to download legal-to-use media from various online services, record video and audio from a user's desktop and convert and format video, image and audio files for air.
 
 This repo does not contain source code. It is intended to host Able2 public releases and JSON.
 
