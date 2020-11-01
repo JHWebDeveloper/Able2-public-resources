@@ -7,10 +7,27 @@ This repo does not contain source code. It is intended to host Able2 public rele
 ## [Unreleased][2.1.3] - TBD
 
 ### Added
+- Screengrab button in preview window. Takes screengrabs of video and retains settings.
+- Screen record now shows time ellapsed (time remaining if timer enabled)
 - Holding shift allows for fine tuning of Position, Scale and Crop sliders and number fields.
+- Pressing Up and Down arrows now control which media item is selected.
+- Keyboard Shortcuts in batch selector for Copy All Settings (Ctrl|Cmd+C), Paste Settings (Ctrl|Cmd+V), Duplicate Media (Ctrl|Cmd+D), Remove Media (Backspace|Delete), Move Up (Ctrl|Cmd+ArrowUp) and Move Down (Ctrl|Cmd+ArrowDown)
+- All optional warning dialogs now have a "Don't show this message again" option
+- "Directory Not Found" dialog now has a "Remove from Save Locations" option
+
+### Changed
+- Downloads can be cancelled during the pending phase (grey dot).
+- Screen record timer, start and end timecode fields now turn red when set to a value that will result in empty media.
+
+### Updated
+- Video service compatibility
 
 ### Fixed
 - Bug preventing negative sign and leading decimal point from being typed into the number fields next to the sliders.
+- Bug causing Radio buttons to lose focus on select.
+- Bug allowing tabbed browsing under record source selector and render queue.
+- Bug preventing some start and end times from changing with multiple media items.
+- No longer renders a dud file when end timecode is set to zero. Error message now displays during render.
 
 ## [2.1.2] - 9.21.2020
 
