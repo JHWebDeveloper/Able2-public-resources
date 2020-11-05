@@ -127,6 +127,11 @@ footer {
 	text-align: center;
 }
 
+::selection {
+	background-color: #ff4500;
+	color: #fff;
+}
+
 @media (max-width: 740px) {
 	section {
 		flex-direction: column;
