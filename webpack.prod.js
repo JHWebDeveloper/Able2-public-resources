@@ -10,7 +10,7 @@ const common = require('./webpack.common')
 
 class DeleteJSPlugin {
 	apply(compiler) {
-		compiler.hooks.compilation.tap('DeleteJSPlugin', (compilation) => {
+		compiler.hooks.compilation.tap('DeleteJSPlugin', compilation => {
 			HTMLWebpackPlugin
 				.getHooks(compilation)
 				.beforeAssetTagGeneration
