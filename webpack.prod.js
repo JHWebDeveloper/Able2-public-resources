@@ -10,11 +10,6 @@ const common = require('./webpack.common')
 
 class DeleteJSPlugin {
 	apply(compiler) {
-		compiler.hooks.done.tap('DeleteJSPlugin', () => {
-			const main = path.resolve('index.bundle.js')
-			if (fs.existsSync(main)) fs.unlink(main, err => console.error(err))
-		})
-
 		compiler.hooks.compilation.tap('DeleteJSPlugin', (compilation) => {
 			HTMLWebpackPlugin
 				.getHooks(compilation)
@@ -23,6 +18,11 @@ class DeleteJSPlugin {
 					data.assets.js = []
 					cb(null, data)
 				})
+		})
+		
+		compiler.hooks.done.tap('DeleteJSPlugin', () => {
+			const main = path.resolve('index.bundle.js')
+			if (fs.existsSync(main)) fs.unlink(main, err => console.error(err))
 		})
 	}
 }
