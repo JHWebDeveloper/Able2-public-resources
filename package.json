@@ -4,18 +4,16 @@
   "description": "A simple Github pages site for downloading the latest versions of Able2 and Super Source Generator",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"http-server -a localhost -p 3000 -c-1 -s -o\" \"webpack --config webpack.dev.js\"",
+    "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "author": "Jonathan Hamilton",
   "license": "UNLICENSED",
   "devDependencies": {
-    "concurrently": "^5.3.0",
     "copy-webpack-plugin": "^6.3.0",
     "css-loader": "^5.0.0",
     "css-minimizer-webpack-plugin": "^1.1.5",
     "html-webpack-plugin": "^4.5.0",
-    "http-server": "^0.12.3",
     "json-minimizer-webpack-plugin": "^1.0.1",
     "mini-css-extract-plugin": "^1.2.1",
     "postcss": "^8.1.4",
@@ -23,6 +21,7 @@
     "postcss-preset-env": "^6.7.0",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.3.0"
   },
   "browserslist": "defaults"
