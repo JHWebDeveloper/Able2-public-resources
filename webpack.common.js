@@ -1,23 +1,16 @@
 const path = require('path')
-const fs = require('fs')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 
-class DeleteJS {
-	apply(compiler) {
-		compiler.hooks.done.tap('DeleteJS', () => {
-			const main = path.resolve('delete.js')
-			if (fs.existsSync(main)) fs.unlink(main, err => console.error(err))
-		})
-	}
-}
-
 module.exports = {
-	entry: path.resolve('src', 'index.css'),
+	target: 'web',
+	entry: {
+		index: path.resolve('src', 'index.css')
+	},
 	output: {
 		path: __dirname,
-		filename: 'delete.js'
+		filename: 'index.bundle.js'
 	},
 	module: {
 		rules: [
@@ -50,10 +43,8 @@ module.exports = {
 			filename: path.join('index.min.css')
 		}),
 		new HTMLWebpackPlugin({
-			inject: false,
 			filename: 'index.html',
 			template: path.resolve('src', 'index.html')
-		}),
-		new DeleteJS()
-	],
+		})
+	]
 }
