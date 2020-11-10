@@ -1,6 +1,7 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
+const HTMLWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
@@ -45,6 +46,9 @@ module.exports = {
 		new HTMLWebpackPlugin({
 			filename: 'index.html',
 			template: path.resolve('src', 'index.html')
+		}),
+		new HTMLWebpackInlineSVGPlugin({
+			runPreEmit: true
 		})
 	]
 }

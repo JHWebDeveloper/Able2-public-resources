@@ -13,6 +13,7 @@
     "copy-webpack-plugin": "^6.3.0",
     "css-loader": "^5.0.0",
     "css-minimizer-webpack-plugin": "^1.1.5",
+    "html-webpack-inline-svg-plugin": "^2.3.0",
     "html-webpack-plugin": "^4.5.0",
     "json-minimizer-webpack-plugin": "^1.0.1",
     "mini-css-extract-plugin": "^1.2.1",
