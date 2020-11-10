@@ -1,11 +1,16 @@
 const { merge } = require('webpack-merge')
+const path = require('path')
 
 const common = require('./webpack.common')
 
 module.exports = merge(common, {
 	mode: 'development',
-	watch: true,
-	watchOptions: {
-		ignored: /nodemodules/
+	devServer: {
+		port: 3000,
+		publicPath: '/',
+		contentBase: path.resolve('src'),
+		watchContentBase: true,
+		hot: true,
+		open: true
 	}
 })
