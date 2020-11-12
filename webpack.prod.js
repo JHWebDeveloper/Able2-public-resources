@@ -4,7 +4,6 @@ const fs = require('fs')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const JsonMinimizerPlugin = require('json-minimizer-webpack-plugin')
 
 const common = require('./webpack.common')
 
@@ -43,12 +42,5 @@ module.exports = merge(common, {
 			}]
 		}),
 		new DeleteJSPlugin()
-	],
-	optimization: {
-    minimize: true,
-    minimizer: [
-			'...',
-      new JsonMinimizerPlugin(),
-    ]
-  }
+	]
 })
