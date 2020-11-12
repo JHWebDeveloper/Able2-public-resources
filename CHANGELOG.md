@@ -1,3 +1,8 @@
+## [Unreleased][2.1.4] - TBD
+
+### Updated
+- Video service compatibility
+
 ## [2.1.3] - 11.2.2020
 
 ### Added
