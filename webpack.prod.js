@@ -37,7 +37,7 @@ module.exports = merge(common, {
 		new CopyWebpackPlugin({
 			patterns: [{
 				from: path.join('src', 'source-suggestions.json'),
-				to: 'data.json',
+				to: 'source-suggestions.min.json',
 				transform: content => JSON.stringify(JSON.parse(content.toString()).sort())
 			}]
 		}),
