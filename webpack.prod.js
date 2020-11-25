@@ -38,7 +38,7 @@ module.exports = merge(common, {
 			patterns: [{
 				from: path.join('src', 'source-suggestions.json'),
 				to: 'source-suggestions.min.json',
-				transform: content => JSON.stringify(JSON.parse(content.toString()).sort())
+				transform: content => JSON.stringify([...new Set(JSON.parse(content.toString()).sort())])
 			}]
 		}),
 		new DeleteJSPlugin()
