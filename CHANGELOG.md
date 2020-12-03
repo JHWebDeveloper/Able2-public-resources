@@ -1,8 +1,7 @@
-## [2.1.4] - 12.2.2020
+## [Unreleased][2.1.4] - TBD
 
 ### Updated
 - Video service compatibility
-- Electron 11
 
 ## [2.1.3] - 11.2.2020
 
