@@ -1,4 +1,4 @@
-## [Unreleased][2.1.4] - TBD
+## [2.1.4] - 12.4.2020
 
 ### Updated
 - Video service compatibility
