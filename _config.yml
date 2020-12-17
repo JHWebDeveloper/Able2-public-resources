@@ -1,6 +1,3 @@
 exclude:
   - "./src"
   - "./webpack.*.js"
-  - "./*.md"
-  - "./package.json"
-  - "./package-lock.json"
