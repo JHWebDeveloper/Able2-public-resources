@@ -1,3 +1,2 @@
-exclude: [
-  'src'
-]
+exclude:
+  - src
