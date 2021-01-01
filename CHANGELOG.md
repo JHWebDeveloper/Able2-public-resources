@@ -25,17 +25,17 @@
 
 #### Formatting:
 - Background "Black" option has been replaced by a color picker that defaults to black, allowing for custom background colors.
-- While color picker is selected, you can click on any pixel in the preview image to set the bg color. Cursor will become an eyedropper icon when hovering over preview
+- While color picker is selected, you can click on any pixel in the preview image to set the bg color. Cursor will become an eyedropper icon when hovering over preview.
+
+#### Scale:
+- Scale distortion is now preserved when clicking "Fit to Frame" buttons while x and y are linked.
+- Scale X and Y positions now appear as snap points on the opposite slider while x and y are unlinked.
 
 #### Crop:
 - The four Crop sliders have been condensed into two double headed sliders. Allows for shifting both crop values simultaneously.
 - Linked crop sliders now adjust relative to the current offset rather than the exact center of the media.
 - Crop Bottom and Right values are now counted down from 100 rather than up from 0.
 - Double clicking on the crop slider snaps back to center.
-
-#### Scale:
-- Scale distortion is now preserved when clicking "Fit to Frame" buttons while x and y are linked.
-- Scale X and Y positions now appear as snap points on the opposite slider while x and y are unlinked.
 
 #### Rotation
 - Added Offset angle option. For transform mode only. You can now adjust the angle of a video or image by up to 45° in either direction. Intended to be used in combination with the 90/180° options for angles beyond 45° (better for performance)
