@@ -8,22 +8,24 @@
 - All HTML range inputs have been replaced with custom made sliders.
 - Holding the shift key while moving any slider slows down the rate of change allowing for precision adjustments.
 - Slider snap points have markers.
+- Slider actions are now throttled, causing preview to refresh once per 60ms. Huge performance improvement.
 
 #### Preview:
 - Timecode slider is now on it's own width-spanning line.
 - Timecode display is now editable.
 - Preview no longer crops to Start and End. Instead original duration persists and Start and End display as slider markers.
 - Keyboard shortcuts in preview window based on Avid's mark in/out shortcuts. I or E = mark start, O or R = mark end, D = clear start, F = clear end, G = clear both, Q = go to start point, W = go to end point.
-- Added throttling to preview requests. Limiting rate to once every 60ms. Huge performance improvement.
 
-#### Start/End:
-- Start and End inputs now accept frames.
+#### Start/End/Split:
+- Introducing Split, a new feature that auto splits the current media into smaller clips by automatically duplicating the media and adjusting the start and end times to the desired subclip duration.
 - Double headed slider for Start and End times. Allows for shifting start and end simultaneously.
+- Start and End inputs now accept frames.
 - Pressing up and down arrows will increment Start and End inputs by 1 frame.
 - Start and End times can no longer cross or meet each other. Should entries conflict, they will auto adjust to a positive duration of 1 frame.
 
-#### Split:
-- A new feature that auto splits the current media into smaller clips by automatically duplicating the media and adjusting the start and end times to the desired subclip duration.
+#### Formatting:
+- Background "Black" option has been replaced by a color picker that defaults to black, allowing for custom background colors.
+- While color picker is selected, you can click on any pixel in the preview image to set the bg color. Cursor will become an eyedropper icon when hovering over preview
 
 #### Crop:
 - The four Crop sliders have been condensed into two double headed sliders. Allows for shifting both crop values simultaneously.
@@ -35,12 +37,18 @@
 - Scale distortion is now preserved when clicking "Fit to Frame" buttons while x and y are linked.
 - Scale X and Y positions now appear as snap points on the opposite slider while x and y are unlinked.
 
-#### Other:
+#### Rotation
+- Added Offset angle option. For transform mode only. You can now adjust the angle of a video or image by up to 45° in either direction. Intended to be used in combination with the 90/180° options for angles beyond 45° (better for CPU)
 - Reflect Horizontally and Vertically now swap values when media is rotated by 90deg.
+
+#### Other:
 - Pressing up and down arrows will increment Screen Record Timer by 1 second.
+- Reorganized Preferences window and added new prefs: default download mode, default screen capture mode, screen recorder frame rate, default timer duration, timer default on/off, slider snap points on/off, default split duration, start over warning, and outpur frame rates 29.97 and custom field.
 
 ### Updated
 - Video service compatibility
+- Electron 11
+- FFmpeg+FFprobe 4.3.1
 
 ### Removed
 - Percent signs on all sliders. It's obvious what the numbers are and removing the signs allows for more slider track room.
