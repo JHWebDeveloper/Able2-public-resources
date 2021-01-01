@@ -38,7 +38,7 @@
 - Scale X and Y positions now appear as snap points on the opposite slider while x and y are unlinked.
 
 #### Rotation
-- Added Offset angle option. For transform mode only. You can now adjust the angle of a video or image by up to 45° in either direction. Intended to be used in combination with the 90/180° options for angles beyond 45° (better for CPU)
+- Added Offset angle option. For transform mode only. You can now adjust the angle of a video or image by up to 45° in either direction. Intended to be used in combination with the 90/180° options for angles beyond 45° (better for performance)
 - Reflect Horizontally and Vertically now swap values when media is rotated by 90deg.
 
 #### Other:
