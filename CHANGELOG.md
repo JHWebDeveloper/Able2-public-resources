@@ -1,6 +1,6 @@
 # Able2 Changelog
 
-## [Unreleased][2.2.0] - TBD
+## [2.2.0] - 1.5.2021
 
 ### Added/Changed
 
