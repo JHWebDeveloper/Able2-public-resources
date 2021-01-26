@@ -5,6 +5,9 @@
 ### Updated
 - Video service compatibility
 
+### Fixed
+- Bug enabling eyedropper tool while background option is disabled
+
 ## [2.2.0] - 1.5.2021
 
 ### Added/Changed
