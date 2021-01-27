@@ -2,8 +2,12 @@
 
 ## [Unreleased][2.2.1] - TBD
 
+### Changed
+- Render queue media titles can now be selected for copy and pasting
+
 ### Updated
 - Video service compatibility
+- Help page
 
 ### Fixed
 - Bug enabling eyedropper tool while background option is disabled
