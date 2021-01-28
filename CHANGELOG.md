@@ -1,6 +1,6 @@
 # Able2 Changelog
 
-## [Unreleased][2.2.1] - TBD
+## [2.2.1] - 1.28.2021
 
 ### Changed
 - Render queue media titles can now be selected for copy and pasting
