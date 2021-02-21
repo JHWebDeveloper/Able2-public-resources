@@ -4,6 +4,7 @@
 
 ### Updated
 - Video service compatibility
+- ffmpeg+ffprobe 4.3.2
 
 ## [2.2.1] - 1.28.2021
 
