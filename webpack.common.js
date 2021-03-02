@@ -4,6 +4,9 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const HTMLWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 
+const able2Version = '2.2.1'
+const sSGVersion = '1.0.3'
+
 module.exports = {
 	target: 'web',
 	entry: {
@@ -44,6 +47,8 @@ module.exports = {
 			filename: path.join('index.min.css')
 		}),
 		new HTMLWebpackPlugin({
+			able2Version,
+			sSGVersion,
 			filename: 'index.html',
 			template: path.resolve('src', 'index.html')
 		}),
