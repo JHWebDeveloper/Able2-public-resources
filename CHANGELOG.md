@@ -1,6 +1,6 @@
 # Able2 Changelog
 
-## [Unreleased][2.2.2] - TBD
+## [2.2.2] - 3.2.2021
 
 ### Updated
 - Video service compatibility
