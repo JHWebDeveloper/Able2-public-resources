@@ -10,9 +10,9 @@
   "author": "Jonathan Hamilton",
   "license": "UNLICENSED",
   "devDependencies": {
-    "copy-webpack-plugin": "^7.0.0",
+    "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^5.0.1",
-    "css-minimizer-webpack-plugin": "^1.2.0",
+    "css-minimizer-webpack-plugin": "^2.0.0",
     "html-webpack-inline-svg-plugin": "^2.3.0",
     "html-webpack-plugin": "^5.0.0",
     "mini-css-extract-plugin": "^1.3.4",
