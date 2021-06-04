@@ -5,6 +5,7 @@
 ### Updated
 - Video service compatibility
 - Ffmpeg+Ffprobe
+- Electron 13 (Windows only)
 
 ### Fixed
 - Bug where "Copy All Settings" and "Apply Settings to All" options were not copying audio settings.
