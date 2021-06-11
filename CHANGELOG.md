@@ -2,6 +2,9 @@
 
 ## [Unreleased][2.2.4] - TBD
 
+### Changed
+- When Able2 opens it now clears it's cache of file older than 24hrs. Previously it would clear everything. This gives the user a window to recover raw downloads/recordings should the Able2 crash.
+
 ### Updated
 - Video service compatibility
 
