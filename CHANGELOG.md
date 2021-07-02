@@ -10,6 +10,9 @@
 - Warning dialog now displays when clicking "Reveal in Cache" from media selector or File > Open Import Cache from application menu.
 - Improved error handling.
 
+### Updated
+- Video service compatibility
+
 ## [2.2.3] - 6.4.2021
 
 ### Updated
