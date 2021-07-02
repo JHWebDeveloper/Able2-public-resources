@@ -2,11 +2,13 @@
 
 ## [Unreleased][2.2.4] - TBD
 
-### Changed
-- When Able2 opens it now clears it's cache of files older than 24hrs. Previously it would clear everything. This gives the user a window to recover raw downloads/recordings should Able2 crash.
+### Added
+- New menu command File > Open Import Cache.
 
-### Updated
-- Video service compatibility
+### Changed
+- When Able2 opens it now clears its cache of files older than 24hrs. Previously it would clear everything. This gives the user a window to recover raw downloads/recordings should Able2 crash.
+- Warning dialog now displays when clicking "Reveal in Cache" from media selector or File > Open Import Cache from application menu.
+- Improved error handling.
 
 ## [2.2.3] - 6.4.2021
 
