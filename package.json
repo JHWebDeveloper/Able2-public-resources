@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+		"quick-update": "npm update && git add package.json package-lock.json && git commit -m 'ran npm update' && git push"
   },
   "author": "Jonathan Hamilton",
   "license": "UNLICENSED",
