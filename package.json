@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-		"quick-update": "npm update && git add package.json package-lock.json && git commit -m 'ran npm update' && git push"
+    "quick-update": "npm update && git add package.json package-lock.json && git commit -m 'ran npm update' && git push"
   },
   "author": "Jonathan Hamilton",
   "license": "UNLICENSED",
   "devDependencies": {
     "copy-webpack-plugin": "^9.0.0",
-    "css-loader": "^5.0.1",
+    "css-loader": "^6.1.0",
     "css-minimizer-webpack-plugin": "^3.0.1",
     "html-webpack-inline-svg-plugin": "^2.3.0",
     "html-webpack-plugin": "^5.0.0",
