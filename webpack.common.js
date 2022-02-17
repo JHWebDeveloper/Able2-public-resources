@@ -4,7 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const HTMLWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 
-const able2Version = '2.2.3'
+const able2Version = '2.2.4'
 const sSGVersion = '1.0.3'
 
 module.exports = {
