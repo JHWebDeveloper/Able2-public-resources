@@ -1,6 +1,6 @@
 # Able2 Changelog
 
-## [Unreleased][2.2.4] - TBD
+## [2.2.4] - 2.17.2022
 
 ### Added
 - New menu command File > Open Import Cache.
