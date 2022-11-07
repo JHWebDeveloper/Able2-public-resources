@@ -1,5 +1,20 @@
 # Able2 Changelog
 
+## [2.2.5] - 11-6-2022
+
+### Changed
+- Audio panel will no longer appear for videos lacking an audio track (Only when track is completely removed. Panel will still appear for silent tracks.)
+- Replaced youtube-dl with yt-dlp due to lack of support and slow download speed.
+
+### Updated
+- Ffmpeg+Ffprobe
+- Electron 21
+
+### Fixed
+- Slow download speeds (see Changed section, item 2)
+- Overall sluggishness (Started with Electon 12, finally fixed in Electron 18)
+- Bug where screen recordings were importing with the incorrect duration.
+
 ## [2.2.4] - 2.17.2022
 
 ### Added
