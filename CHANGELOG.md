@@ -6,7 +6,7 @@
 - Record light blink animation is now in exact sync with the seconds counter.
 - Audio panel will no longer appear for screengrabs.
 
-## [2.2.5] - 11-6-2022
+## [2.2.5] - 11.6.2022
 
 ### Changed
 - Audio panel will no longer appear for videos lacking an audio track (Only when track is completely removed. Panel will still appear for silent tracks.)
