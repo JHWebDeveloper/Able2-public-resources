@@ -1,3 +1,4 @@
 node_modules/
 /delete.js
 /.env
+/source_count.js
