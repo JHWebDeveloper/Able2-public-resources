@@ -7,7 +7,8 @@
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "quick-update": "npm update && git add package.json package-lock.json && git commit -m 'ran npm update' && git push",
-		"push-changelog": "git add CHANGELOG.md && git commit -m 'updated CHANGELOG' && git push"
+		"push-changelog": "git add CHANGELOG.md && git commit -m 'updated CHANGELOG' && git push",
+		"count": "node source_count.js"
   },
   "author": "Jonathan Hamilton",
   "license": "UNLICENSED",
@@ -26,5 +27,6 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
   },
-  "browserslist": "defaults"
+  "browserslist": "defaults",
+	"type": "module"
 }
