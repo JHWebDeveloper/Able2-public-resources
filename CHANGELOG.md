@@ -2,9 +2,15 @@
 
 ## [Unreleased][2.2.6] - TBD
 
+### Updated
+- Video service compatibility.
+
 ### Fixed
 - Record light blink animation is now in exact sync with the seconds counter.
 - Audio panel will no longer appear for screengrabs.
+
+### Removed
+- Eyedropper feature when hovering over the preview window with a color bg selected. The HTML color pick popup now comes with its own eyedropper tool rendering Able2's eyedropper redundant.
 
 ## [2.2.5] - 11.6.2022
 
