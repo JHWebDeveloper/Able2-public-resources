@@ -2,8 +2,12 @@
 
 ## [Unreleased][2.2.6] - TBD
 
+### Changed
+- Aspect ratio marker drawing logic completely recoded. Hard to tell with the naked eye, but markers are more accurate than before.
+
 ### Updated
 - Video service compatibility.
+- Electron 22
 
 ### Fixed
 - Record light blink animation is now in exact sync with the seconds counter.
