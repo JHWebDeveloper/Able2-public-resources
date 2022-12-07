@@ -1,6 +1,6 @@
 # Able2 Changelog
 
-## [Unreleased][2.2.6] - TBD
+## [2.2.6] - 12.7.2022
 
 ### Changed
 - Aspect ratio marker drawing logic completely recoded. Hard to tell with the naked eye, but markers are more accurate than before.
