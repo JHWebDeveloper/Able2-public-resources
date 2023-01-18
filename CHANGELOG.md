@@ -1,5 +1,37 @@
 # Able2 Changelog
 
+## [2.3.0] - 1.18.2023
+
+### Added
+- New panel added: Color Correction. Able2 can now color correct photos and video. Panel contains a Photoshop-style curve adjustment grid along with white and black point eyedropper tools.
+- New panel added: Key. Able2 now supports basic keying for both video and images. Includes options for Color, Chroma or Luma key with color picker.
+- Dark mode with options to sync to system color scheme or force Dark or Classic mode.
+- Background motion options. Video backgrounds can now be set to moving or still allowing Content Center to output .png's with a ch9 bg. Can set default bg motion to either animated, still or auto. Auto will automatically default images to still and videos to animated.
+- Light Blue, Dark Blue, Teal and Tan WFTV Tonight backgrounds. They must be enabled in preferences. Full support for Animated/Still backgrounds and 720/1080 resolutions.
+- WFTV Tonight style for sources. No way or need to choose the style. Simply selecting a WFTV Tonight background will automatically style the source in the WFTV Tonight format.
+- Quality button for preview image. Choose between 100%, 75% or 50% quality.
+- Custom aspect ratio markers.
+- Color picker button next to background color input.
+- Ability to set default ARC Correction mode in preferences.
+- Ability to toggle visibility of Save Location checkboxes in preferences.
+- You can now right-click on a file and choose Able2 for "open with".
+- File>Open menu option.
+
+### Changed
+- Preview now enlarges and rerenders when resizing the application window.
+- Able2 now retains last window size on open.
+- Preferences has a completely new look with tabbed sections.
+- Replaced Soundflower compatibility with Existential Audio's BlackHole for screen record audio support on mac. This is because BlackHole supports the Apple chip while Soundflower does not.
+- Wavform data preview for audio is now seekable. Preview window displays current frame of audio instead of entire track. See item 1 in 'Fixed' below for reasons.
+- Aspect ratio marker buttons now consolidate to a dropdown if there is more than three with the first two remaining on the preview control bar.
+- Replaced split button icon with a scissor icon.
+
+### Updated
+- Video service compatibility.
+
+### Fixed
+- Bug where waveform data would appear in preview window after deselecting Audio Only + .wav/.mp3. This was because longer media took a while to render. Waveform render would finally complete and immediately overwrite the current preview. Fixed by making waveform data seekable as mentioned. Now only needs to render 1 frame at a time - super fast.
+
 ## [2.2.6] - 12.7.2022
 
 ### Changed
