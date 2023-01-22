@@ -1,5 +1,17 @@
 # Able2 Changelog
 
+## [Unreleased][2.3.1] - TBD
+
+### Added
+- The Preview Panel can now be resized vertically and its new height will be retained on closing Able2. This will allow for more layout flexibility with wider window sizes.
+- Keyboard shortcut for File > Open (Ctrl|Cmd + O).
+
+### Changed
+- All .mp4 and .png exports will now have the pixel format of yuv420p and rgb24 respectively. This will allow for better compatibility with common media software. All .mov alpha channel containing exports will continue to have a yuva444p101e pixel format.
+
+### Fixed
+- In Color Correction panel, clicking between white and black point slider heads will snap nearest head to this clicked spot. This was previously only working for ythe outer regions of the white balance slider.
+
 ## [2.3.0] - 1.18.2023
 
 ### Added
