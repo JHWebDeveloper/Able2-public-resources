@@ -10,7 +10,7 @@
 - All .mp4 and .png exports will now have the pixel format of yuv420p and rgb24 respectively. This will allow for better compatibility with common media software. All .mov alpha channel containing exports will continue to have a yuva444p101e pixel format.
 
 ### Fixed
-- In Color Correction panel, clicking between white and black point slider heads will snap nearest head to this clicked spot. This was previously only working for ythe outer regions of the white balance slider.
+- In Color Correction panel, clicking between white and black point slider heads will snap nearest head to this clicked spot. This was previously only working for the outer regions of the white balance slider.
 
 ## [2.3.0] - 1.18.2023
 
