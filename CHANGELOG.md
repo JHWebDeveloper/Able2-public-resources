@@ -12,7 +12,7 @@
 - Offset angle range has been expanded from ±45° to ±180°
 - For non-orthogonal angles, fit buttons in the Scale panel now snap the content's rotated width or height to the frame edges instead of original dimensions.
 - Improved preview rendering.
-- Duplicates no longer display on the acquisition page. Acquisition page now only displays 1 media element per source file.
+- Duplicates of media no longer display on the acquisition page. Acquisition page now only displays 1 media element per source file.
 
 ### Updated
 - Video service compatibility
