@@ -1,5 +1,15 @@
 # Able2 Changelog
 
+## [2.3.3] - 7.6.2023
+
+### Updated
+- Video service compatibility
+
+### Fixed
+- If a certain site-that-will-not-be-named was suddenly not working for you today, the update mentioned above has fixed it.
+- Sortable items can be sorted again. Drag and drop feature was accidentally reset in the last update.
+- Bug causing lengthy media titles to reset after scroll pan.
+
 ## [2.3.2] - 6.30.2023
 
 ### Added
