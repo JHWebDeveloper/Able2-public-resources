@@ -1,9 +1,14 @@
 # Able2 Changelog
 
+## [2.3.5] - 9.8.2023
+
+### Updated
+- Updated internal downloader to latest beta. Facebook is working again.
+
 ## [2.3.4] - 8.28.2023
 
 ### Updated
-- Updated internal downloader to latest beta. Facebook is still not working, but a certain site-that-will-not-be-named should be working again. Expect another update as soon as facebook issue is patched or the beta goes stable. 
+- Updated internal downloader to latest beta. Facebook is still not working, but a certain site-that-will-not-be-named should be working again.
 
 ## [2.3.3] - 7.6.2023
 
