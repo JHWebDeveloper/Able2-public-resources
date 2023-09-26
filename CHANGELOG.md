@@ -1,5 +1,10 @@
 # Able2 Changelog
 
+## [2.3.6] - 9.8.2023
+
+### Updated
+- Updated internal downloader to latest stable version.
+
 ## [2.3.5] - 9.8.2023
 
 ### Updated
@@ -13,7 +18,7 @@
 ## [2.3.3] - 7.6.2023
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ### Fixed
 - If a certain site-that-will-not-be-named was suddenly not working for you today, the update mentioned above has fixed it.
@@ -40,7 +45,7 @@
 - Filename no longer disables when a Batch name is typed in while "Replace" is selected. This is to allow use of the new $f token described above.
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 - Electron 25
 
 ### Fixed
@@ -60,7 +65,7 @@
 - All .mp4 and .png exports will now have the pixel format of yuv420p and rgb24 respectively. This will allow for better compatibility with common media software. All .mov alpha channel containing exports will continue to have a yuva444p101e pixel format.
 
 ### Updated
-- Video service compatibility.
+- Updated internal downloader to latest version..
 
 ### Fixed
 - In Color Correction panel, clicking between white and black point slider heads will snap nearest head to this clicked spot. This was previously only working for the outer regions of the white balance slider.
@@ -92,7 +97,7 @@
 - Replaced split button icon with a scissor icon.
 
 ### Updated
-- Video service compatibility.
+- Updated internal downloader to latest version..
 
 ### Fixed
 - Bug where waveform data would appear in preview window after deselecting Audio Only + .wav/.mp3. This was because longer media took a while to render. Waveform render would finally complete and immediately overwrite the current preview. Fixed by making waveform data seekable as mentioned. Now only needs to render 1 frame at a time - super fast.
@@ -103,7 +108,7 @@
 - Aspect ratio marker drawing logic completely recoded. Hard to tell with the naked eye, but markers are more accurate than before.
 
 ### Updated
-- Video service compatibility.
+- Updated internal downloader to latest version..
 - Electron 22
 
 ### Fixed
@@ -139,7 +144,7 @@
 - Improved error handling.
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ### Fixed
 - Bug where uploaded .webp's were condsidered video and rejected with error "unable to find media duration"
@@ -147,7 +152,7 @@
 ## [2.2.3] - 6.4.2021
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 - Ffmpeg+Ffprobe
 - Electron 13 (Windows only)
 
@@ -157,7 +162,7 @@
 ## [2.2.2] - 3.2.2021
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 - Ffmpeg+Ffprobe
 
 ### Fixed
@@ -169,7 +174,7 @@
 - Render queue media titles can now be selected for copy and pasting
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 - Help page
 
 ### Fixed
@@ -222,7 +227,7 @@
 - Reorganized Preferences window and added new prefs: default download mode, default screen capture mode, screen recorder frame rate, default timer duration, timer default on/off, slider snap points on/off, default split duration, start over warning, and outpur frame rates 29.97 and custom field.
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 - Electron 11
 - FFmpeg+FFprobe 4.3.1
 
@@ -238,7 +243,7 @@
 ## [2.1.4] - 12.4.2020
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ## [2.1.3] - 11.2.2020
 
@@ -256,7 +261,7 @@
 - Screen record timer, start and end timecode fields now turn red when set to a value that will result in empty media.
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ### Fixed
 - Bug preventing negative sign and leading decimal point from being typed into the number fields next to the sliders.
@@ -278,7 +283,7 @@
 - No more overwrites on save. Number will append to filename if file with same name exists.
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 - Electron 10.1.2. It seems this fixed the not-opening bug.
 
 ### Fixed
@@ -367,7 +372,7 @@
 - Update now opens as separate window with new look for download meter
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ### Removed
 - Windows 32bit support resulting in a smaller application size and faster updates
@@ -381,7 +386,7 @@
 ## [1.2.5] - 7.9.2020
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ## [1.2.4] - 4.29.2020
 
@@ -404,7 +409,7 @@
 ## [1.2.1] - 2.4.2020
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ## [1.2.0] - 1.16.2020
 
@@ -421,7 +426,7 @@
 - Added .m2ts to accepted extensions
 
 ### Updated
-- Video service compatibility
+- Updated internal downloader to latest version.
 
 ## [1.1.2] - 11.01.2019
 
