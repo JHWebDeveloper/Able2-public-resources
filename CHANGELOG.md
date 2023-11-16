@@ -1,5 +1,44 @@
 # Able2 Changelog
 
+## [Unreleased][2.4.0] - TBD
+
+### Added
+- Presets! Able2 can now store and apply preset media attributes to media clips. There are two types of Presets. Presets and Batch Presets. Batch Presets allow users to create multiple versions of a single or multiple media clips in a single click. Both Presets and Batch Presets can be created, modified, sorted and deleted in the new Preset Editor window.
+- Undo and Redo. Able2 now supports undo history for nearly every action. Select Edit > Undo|Redo or press <kbd>Ctrl</kbd>|<kbd>Cmd</kbd>+<kbd>Z</kbd> to Undo or <kbd>Ctrl</kbd>|<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd> to Redo (to match Avid, Redo via <kbd>Ctrl</kbd>|<kbd>Cmd</kbd>+<kbd>R</kbd> is also supported).
+- Ability to select multiple media clips for editing. Able2 previously could only edit 1 clip or all clips. Not it can edit 1, all or some. Use <kbd>Shift</kbd>+Click to select multiple media clips in sequence and <kbd>Ctrl</kbd>|<kbd>Cmd</kbd>+Click to select out of order. Use <kbd>Ctrl</kbd>|<kbd>Cmd</kbd>+Click to deselect selected clips.
+- Select All and Deselect All buttons in place of the Edit All checkbox.
+- Edit All dropdown menu with options: Select All, Deselect All, Duplicate Selected/All, Apply Preset to Selected/All, Apply Preset to Selected/All as Duplicate, Remove Selected/All.
+- New media dropdown options: Apply Attributes to Selected, Select Duplicates, Apply Preset, Apply Preset as Duplicate, Save as Preset.
+- New panel dropdown options: Apply to Selected, Save as Preset.
+- Render queue now displays a "View in Explorer|Finder" button next to each successfully rendered item. A popup menu of directories displays if multiple save locations were selected.
+- Select All by Default setting in the preferences.
+- Dropdown menus now display their keyboard shortcut to the right if available.
+- Creative Commons License Agreement and Help > View License menu option.
+
+### Changed
+- Fit to Height and Fit to Width buttons in the Scale panel now fit any selected media relative to the media and frame dimensions as opposed to just copying the percentages from the selected media.
+- Render Queue has a new look with performance improvements under the hood.
+- Batch name panel is now collapsible and text can be prepended/appended to the filename simultaneously instead of one or the other.
+- Deleting a displayed media clip will now auto display the nearest selected clip in the current media selection. If no other clips are selected, it will display the next clip in sequence like normal.
+- Dropdown menus can be navigated with arrow keys and closed with the escape key.
+- $s, $e, $r and $c timecode tokens now include frames and are concatenated with 1 letter units (e.g. 01h02m03s04f).
+- Formatting Panels Open/Closed state and Preview Quality now retain their last state when Able2 is reopened.
+
+### Updated
+- Updated internal downloader to latest stable version.
+- Electron 27
+
+### Fixed
+- Focus rings are back.
+- Bug where images with a transparent background were missing an alpha channel.
+- Grid Color selector width is back to normal.
+- Crop values adjust correctly when reflecting a clip rotated 90deg or -90deg.
+
+### Removed
+- Edit All checkbox and Edit All by Default preference setting. Edit All has been completely replaced by the multi selection feature outlines above.
+- Default Preview Quality preference setting. Preview Quality is now auto saved and retained.
+- Live stream downloads, hopefully temporarily. Feature has not worked since switching internal downloaders.
+
 ## [2.3.6] - 9.26.2023
 
 ### Updated
