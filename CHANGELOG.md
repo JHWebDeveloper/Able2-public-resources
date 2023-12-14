@@ -1,5 +1,13 @@
 # Able2 Changelog
 
+## [2.4.1] - 12.14.2023
+
+### Fixed
+- Bug causing all Fill Frame exports to error.
+
+### Changed
+- All subwindows on PC are back to draggable.
+
 ## [2.4.0] - 12.7.2023
 
 ### Added
