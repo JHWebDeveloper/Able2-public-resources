@@ -1,5 +1,10 @@
 # Able2 Changelog
 
+## [2.5.1] - 2.22.2024
+
+### Changed
+- Increased source overlay font size
+
 ## [2.5.0] - 2.16.2024
 
 ### Added
