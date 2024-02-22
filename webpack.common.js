@@ -4,10 +4,10 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const HTMLWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 
-const able2VersionWin = '2.5.0'
-const able2VersionMac = '2.5.0'
-const sSGVersionWin = '1.0.3'
-const sSGVersionMac = '1.0.3'
+const able2VersionWin = '2.5.1'
+const able2VersionMac = '2.5.1'
+const sSGVersionWin = '1.1.0'
+const sSGVersionMac = '1.1.0'
 
 module.exports = {
 	target: 'web',
