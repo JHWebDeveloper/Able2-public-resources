@@ -1,5 +1,14 @@
 # Able2 Changelog
 
+## [2.5.2] - 5.24.2024
+
+### Changed
+- Anamorphic video is now automatically detected and resized to its display aspect ratio in Fill, Fit and Transform modes. None preserves the anamorphic sample size and metadata.
+
+### Updated
+- Updated internal downloader to latest stable version.
+- Electron 30.
+
 ## [2.5.1] - 2.22.2024
 
 ### Changed
