@@ -1,5 +1,10 @@
 # Able2 Changelog
 
+## [2.5.3] - 5.24.2024
+
+### Updated
+- Updated internal downloader to latest stable version. (a certain major social media site that shortened its name within the last is now compatible under the new name)
+
 ## [2.5.2] - 5.24.2024
 
 ### Changed
