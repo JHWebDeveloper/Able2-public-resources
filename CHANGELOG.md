@@ -1,5 +1,11 @@
 # Able2 Changelog
 
+## [Unreleased][2.5.5] - TBD
+
+### Updated
+- Updated internal downloader to latest stable version.
+- Electron 32
+
 ## [2.5.4] - 7.13.2024
 
 ### Updated
