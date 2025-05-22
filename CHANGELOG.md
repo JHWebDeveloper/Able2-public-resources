@@ -1,6 +1,6 @@
 # Able2 Changelog
 
-## [Unreleased][2.5.5] - TBD
+## [2.5.5] - 11.13.2024
 
 ### Updated
 - Updated internal downloader to latest stable version.
