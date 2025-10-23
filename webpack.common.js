@@ -4,8 +4,8 @@ const HTMLWebpackPlugin = require('html-webpack-plugin')
 const HTMLWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 
-const able2VersionWin = '2.5.6'
-const able2VersionMac = '2.5.6'
+const able2VersionWin = '2.5.7'
+const able2VersionMac = '2.5.7'
 const sSGVersionWin = '1.1.0'
 const sSGVersionMac = '1.0.3'
 
