@@ -1,5 +1,10 @@
 # Able2 Changelog
 
+## [2.5.7] - 10.23.2025
+
+### Updated
+- Updated internal downloader to latest stable version.
+
 ## [2.5.6] - 10.20.2025
 
 ### Updated
