@@ -1,5 +1,10 @@
 # Able2 Changelog
 
+## [2.5.9] - 4.10.2026
+
+### Updated
+- Updated internal downloader to latest stable version.
+
 ## [2.5.8] - 1.29.2026
 
 ### Updated
@@ -88,7 +93,7 @@
 - New panel dropdown options: Apply to Selected, Save as Preset.
 - Insert Replacement Token menu next to Filename, Batch Name and new Preset Name text fields. User no longer needs to remember what the tokens are or that they exist.
 - New tokens $i, $li, $v and $lv for instance and version numbering of media clips.
-- Date and Time Source setting in the preferences. User can now select whether that date and time tokens are replaced by import started (default), import completed or export started time.
+- Date and Time Source setting in the preferences. User can now select whether the date and time tokens are replaced by import started (default), import completed or export started time.
 - Render queue now displays a "View in Explorer|Finder" button next to each successfully rendered item. A popup menu of directories displays if multiple save locations were selected.
 - Select All by Default setting in the preferences.
 - Dropdown menus now display their keyboard shortcut to the right if available.
@@ -115,7 +120,7 @@
 - Crop values adjust correctly when reflecting a clip rotated 90deg or -90deg.
 
 ### Removed
-- Edit All checkbox and Edit All by Default preference setting. Edit All has been completely replaced by the multi selection feature outlines above.
+- Edit All checkbox and Edit All by Default preference settings. Edit All has been completely replaced by the multi selection feature outlined above.
 - Default Preview Quality preference setting. Preview Quality is now auto saved and retained.
 - Live stream downloads, hopefully temporarily. Feature has not worked since switching internal downloaders.
 
